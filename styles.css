@@ -1,0 +1,116 @@
+body{
+	color: #222;
+}
+.navbar{
+	font-family: helvetica;
+	position: relative;
+	top: 5px;
+	left: 7px;
+	padding: 10px 10px 0px 15px;
+}
+.navbar a{
+	margin: 8px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #757575;
+}
+
+.content{
+	position: absolute;
+	top: 30%;
+	left: 27%;
+	text-align: center;
+	width: 45%;
+}
+#searchfield{
+	font-size: 16px;
+    width: 90%;
+    padding: 12px;
+    margin: 25px 0;
+    border: 1px solid #e5e6e8;
+    border-radius: 2px;
+    box-shadow: 0 2px #d3d3d3;
+}
+#logo{
+	/*width: 300px;*/
+}
+
+.navright{
+	float: right;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    height: 40px;
+    /*min-width: 980px;    */
+    /*font-size: 10pt;*/
+    /*padding-right: 10px;*/
+    padding-left: 15px;
+    font-family: helvetica;
+    font-size: 13px;
+}
+
+.footer a {
+	color: #757575;
+    text-decoration: none;
+    margin: 8px;
+
+}
+
+#footright {
+	float: right;
+	padding-right: 45px;
+}
+
+.button{
+	color: #757575;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+	height: 36px;
+    line-height: 27px;
+    border-radius: 2px;
+}
+
+#micIcon {
+    position: relative;
+    left: -7%;
+    vertical-align: middle;
+    height: 20px;
+}
+
+.button:hover{ 
+	color: black;
+	border: 1px solid #757575;
+}
+
+.Gs{
+	padding-left: 27px;
+    margin: 0 !important;
+}
+
+#appsIcon {
+	vertical-align: bottom;
+    height: 16px;
+    filter: opacity(60%);
+}
+
+#signbutton{
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-color: #4285f4;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 3px;
+}
